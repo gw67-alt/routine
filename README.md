@@ -1,1 +1,1 @@
-This is effective against spies that communicate private information in double entendres. 
+This is effective against spies that communicate private information in double entendres in open settings. 
