@@ -1,1 +1,1 @@
-This works on spies that communicate private information.
+This is effective against spies that communicate private information in double entendres. 
