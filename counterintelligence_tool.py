@@ -3,7 +3,7 @@ import time
 from datetime import datetime, timedelta
 
 def random_timed_routine():
-    while True:
+    for i in range(100):
         # Get the current time
         current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         
@@ -18,11 +18,10 @@ def random_timed_routine():
         print(f"Current time: {current_time}")
         print(f"Next routine in {delay_minutes} minutes, at {next_run_time_str}")
         
-        # Wait for the random delay (in seconds)
-        time.sleep(delay_minutes * 60)  # Convert minutes to seconds
         
         # Execute the routine task
         print("Routine task executed")
 
 if __name__ == "__main__":
     random_timed_routine()
+    input("Press enter to close program")
